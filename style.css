@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:200&subset=latin,cyrillic);
+
+
+       /* content*/
+.wrap{
+	margin-top: -30px;
+	color: #ffffff;
+	text-align: center;
+}
+.wrap .panel{
+	height: 210px;
+}
+.pull-left {
+  float: left !important;
+  margin-left: 15%;
+ 
+}
+.pull-right {
+  float: right !important;
+  margin-right: 18%;
+ 
+}
+
+.content{
+	text-align: center;
+	color: #000000;
+	text-shadow: #a8a8a8 0 0 1px; 
+	font-size: 16px;
+
+}
+.h2{
+	font-size: 20px;
+}
+
+
+.content h2{
+	text-align: center;
+	font-size: 48px;
+}
+.wrap_2{
+	width:100%;
+	display: -webkit-flex; /* Safari */
+	display:flex;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+    align-items:space-around;
+	flex-wrap:wrap;
+	
+}
+.text_left{
+	float: left;
+	font-size: 16px;
+	line-height: 1.1;
+	margin-left: 0;
+	
+}
+.text_right{
+	float: right;
+	font-size:16px;
+	line-height: 1.1;
+	
+}
+.color{
+	color: #ff0000;
+}
+.wrap_2 .pull-left {
+ 
+  margin-left: 0;
+ 
+}
+.wrap_2 .pull-right {
+ 
+  margin-right: 0;
+ 
+}
+
+
+.img-thumbnail{
+	background: #ffffff;
+	border: 1px solid #b8b8b8;
+	margin-bottom: 0;
+	border-radius: 0;
+	
+}
+.wrap_2 .txt_1, .txt_2, .txt_3, .txt_4{
+	display: none;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+    color: #000;
+}
+.izo_1{
+	background: url(img/image_1/image_265x290/ledcross_001.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	width: 265px; 
+	height: 290px; 
+	
+}
+
+.izo_1:hover{
+	background: url(img/pict_1.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+
+.izo_1:focus{
+	background: url(img/pict_1.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+.izo_1:hover .txt_1{
+	display: block;
+	color:# 000000;
+    cursor: pointer;	
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+    
+}
+.izo_1:focus .txt_1{
+	display: block;
+	color:# 000000;
+    cursor: pointer;
+	font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+}
+
+.izo_2{
+	background: url(img/image_1/image_265x290/ledcross_010.png) no-repeat 50% 50%;
+	display: block;
+	width: 265px; 
+	height: 290px; 
+	
+}
+.izo_2:hover{
+	background: url(img/pict_2.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+
+.izo_2:focus{
+	background: url(img/pict_2.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+.izo_2:hover .txt_2{
+	display: block;
+	color:# 000000;
+    cursor: pointer;	
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+    
+}
+.izo_2:focus .txt_2{
+	display: block;
+	color:# 000000;
+    cursor: pointer;
+	font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+}
+.izo_3{
+	background: url(img/image_1/image_265x290/pict.png) no-repeat 50% 50%;
+	display: block;
+	width: 265px; 
+	height: 290px; 
+	
+}
+.izo_3:hover{
+	background: url(img/pict_3.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+
+.izo_3:focus{
+	background: url(img/pict_3.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+.izo_3:hover .txt_3{
+	display: block;
+	color:# 000000;
+    cursor: pointer;	
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+    
+}
+.izo_3:focus .txt_3{
+	display: block;
+	color:# 000000;
+    cursor: pointer;
+	font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+}
+.izo_4{
+	background: url(img/image_1/image_265x290/ledcross_020.png) no-repeat 50% 50%;
+	display: block;
+	width: 265px; 
+	height: 290px; 
+	
+}
+.izo_4:hover{
+	background: url(img/pict_4.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+
+.izo_4:focus{
+	background: url(img/pict_4.png) no-repeat 50% 50%;
+	display: block;
+	border-radius: 0;
+	border:1px solid #b8b8b8;
+	box-shadow: 1px 1px 3px #cccccc;
+	width: 340px; 
+	height: 630px; 
+}
+.izo_4:hover .txt_4{
+	display: block;
+	color:# 000000;
+    cursor: pointer;	
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+    
+}
+.izo_4:focus .txt_4{
+	display: block;
+	color:# 000000;
+    cursor: pointer;
+	font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+	padding-top: 359px;
+	margin-left: 11px;
+}
+.wrap_3{
+	width:100%;
+	display: -webkit-flex; /* Safari */
+	display:flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+    align-items:center;
+	flex-wrap:wrap;
+	text-align: center;
+}
+ p{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 22px;
+}
+.btn-primary{
+	margin-top: 50px;
+}
+
+
+
+.pict_ruler{
+	margin: 60px 0 40px 0;
+}
+			/*footer*/
+footer{
+	padding: 55px;
+	background-color: #5c5c5c;
+	height: 257px;
+	color: #ffffff;
+	font-size: 26px;
+	line-height: 1.3;
+}
+/*.left {
+	text-align: left;
+	
+	line-height: 1.3;
+	font-size: 22px;
+}
+.right {
+	text-align: right;
+	
+	line-height: 1.3;
+	font-size: 22px;
+}*/
