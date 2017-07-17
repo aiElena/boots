@@ -1,0 +1,347 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.header h2{
+	font-size: 30px;
+}
+.jumbotron h1{
+	font-size: 40px;
+}
+.tel{
+	font-size: 20px;
+}
+	
+.inform{
+	font-size: 28px;	
+}
+.btn-default{
+	width: 200px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.header h2{
+	font-size: 20px;
+}
+.header .tel{
+	font-size: 16px;
+}
+.jumbotron h1{
+	font-size: 40px;
+}
+.inform{
+	font-size: 26px;	
+}
+.wrap .h2{
+	font-size: 36px;
+}	
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+
+.tel{
+	font-size: 20px;
+}
+.jumbotron h1{
+	font-size: 30px;
+}
+.inform{
+	font-size: 26px;
+	line-height: 1.4;
+}
+.btn-danger {
+	margin-top: 20px;
+	margin-left: -110px;
+}
+
+.wrap .h2{
+	font-size: 24px;
+}	
+
+.btn-default{
+	width: 200px;
+}
+						/*table*/						
+.table tr{
+	font-size: 14px;
+}
+.table_txt h2{
+	font-size: 20px;
+}
+.table_txt h3{
+	font-size: 16px;
+}
+							/*table end*/
+.txt1_footer{
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.txt2_footer{
+	font-size: 22px;
+	line-height: 1.1;
+}
+.wrap_4{	
+	font-size: 18px;
+	margin-top: 40px;	
+}
+.my-flex-block_left_1{
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+}
+.my-flex-block_left_2{
+	
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+}
+.my-flex-block_right_1{
+
+	width: 480px;
+	height: 30px;
+	font-size: 18px;	
+}
+.my-flex-block_right_2{
+	width: 480px;
+	height: 30px;
+	font-size: 18px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.jumbotron h1{
+	font-size: 24px;
+}	
+.btn-danger {
+	margin-top: 30px;
+	margin-left: -140px;
+}
+.inform{
+	font-size: 22px;
+	line-height: 1.4;
+}
+/*панель с формой*/
+.wrap .h2{
+	font-size: 20px;
+	margin: 30px;
+}
+.wrap h3{
+	font-size: 18px;
+	margin: 20px;
+}
+.form-control::-moz-placeholder{
+	font-size: 15px;
+	height: 30px;
+}
+.wrap .btn-default{
+	font-size: 18px;
+	height: 45px;
+	width: 150px;
+}
+/*панель с формой конец*/
+.text-inf .h2{
+	font-size: 20px;
+}
+.text-inf p{
+	font-size: 14px;
+}
+.overlay:target+.popup {
+    left: 0; /* Расположение */   
+}
+						/*table*/
+						
+.table tr{
+	font-size: 12px;
+}
+.table_txt h2{
+	font-size: 18px;
+}
+.table_txt h3{
+	font-size: 16px;
+}
+							/*table end*/
+							
+							/*footer*/
+.txt1_footer{	
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 1.1;
+}
+.txt2_footer{	
+	font-size: 18px;
+	line-height: 1.1;
+}
+.txt{
+	font-size: 16px;
+}
+.h3{
+	font-size: 16px;
+}
+.wrap_4{	
+	font-size: 14px;
+	margin-top: 40px;	
+}
+.my-flex-block_left_1{
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+}
+.my-flex-block_left_2{
+	
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+}
+.my-flex-block_right_1{
+
+	width: 300px;
+	height: 30px;
+	font-size: 14px;	
+}
+.my-flex-block_right_2{	
+	width: 300px;
+	height: 30px;
+	font-size: 14px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.logo{
+	margin-left: -15px;
+}
+.jumbotron h2{
+	margin-left: -30px;
+	font-size: 18px;
+	padding-top: 0 auto;
+}	
+.tel{
+	margin-left: -30px;
+	font-size: 10px;
+	padding-top: 0 auto;
+}
+.inform{
+	font-size: 20px;
+	line-height: 1.2;
+}
+/*панель с формой*/
+.wrap .h2{
+	font-size: 18px;
+	margin: 15px;
+}
+.wrap h3{
+	font-size: 16px;
+	margin: 15px;
+}
+.form-control::-moz-placeholder{
+	font-size: 14px;
+	height: 18px;
+}
+.wrap .btn-default{
+	font-size: 18px;
+	height: 45px;
+	width: 120px;
+}
+.wrap .form-control{
+	padding: 6px;
+}
+
+/*панель с формой конец*/
+.btn_video .btn-danger {
+	
+	width: 250px;
+	height: 60px;
+	font-size: 20px;
+	padding: 1px;
+	margin-left: none;	
+}
+.btn_video{
+	text-align: center;	
+}
+.overlay:target+.popup {
+    left: 0; /* Расположение */   
+}
+						/*table*/
+					
+.table tr{
+	font-size: 12px;
+}
+.table_txt h2{
+	font-size: 18px;
+}
+.table_txt h3{
+	font-size: 16px;
+}
+						/*footer*/
+.txt1_footer{
+	font-size: 16px;
+	margin-bottom: 10px;	
+}
+.txt2_footer{
+	font-size: 16px;	
+}
+footer{
+	padding: 20px auto;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

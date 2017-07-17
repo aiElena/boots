@@ -1,0 +1,38 @@
+@font-face {
+font-family: 'HelveticaNeueCyr-Light';
+src: url('fonts/HelveticaNeueCyr-Light.otf');
+}
+@font-face {
+font-family: 'HelveticaNeueCyr-Medium';
+src: url('fonts/HelveticaNeueCyr-Medium.otf');
+}
+@font-face {
+font-family: 'HelveticaNeueCyr-UltraLight';
+src: url('fonts/HelveticaNeueCyr-UltraLight.otf');
+}
+@font-face {
+font-family: 'HelveticaNeueCyr-Bold';
+src: url('fonts/HelveticaNeueCyr-Bold.otf');
+}
+@font-face {
+font-family: 'HelveticaNeueCyr-Roman';
+src: url('fonts/HelveticaNeueCyr-Roman.otf');
+}
+body{
+	
+	
+	width: 100% auto;
+	max-width: 1920px;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+	
+}
+
+
+img{
+	max-width:100%;
+	height:auto!important;
+	width:auto\9
+}

@@ -1,0 +1,87 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	
+}
+.right{
+	font-style: italic;
+	text-align: right;
+	color: #888888;
+}
+.select{
+	font-weight: 600;
+	line-height: 1.5;
+}
+.h5{
+	line-height: 1.4;
+}
+ 
+
+ 
+
+.page {
+background: #f9f8f6;
+border-color: #eeecdd;
+width: 225px;
+height: 250px;
+padding: 40px 20px;
+margin-bottom: 30px;
+
+}
+.text{
+	font-style: italic;
+	line-height: 1.4;
+}
+
+.foldtl {
+
+position: relative;
+
+}
+
+.foldtl:before {
+
+content: "";
+position: absolute;
+top: 0%;
+right: 0%;
+width: 0px;
+height: 0px;
+border-bottom: 30px solid #e9e7d5;
+border-right: 30px solid #ffffff;
+
+}
+ul li{
+	list-style-type: none;
+}
+
+
+

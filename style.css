@@ -1,88 +1,98 @@
-@import url(https://fonts.googleapis.com/css?family=Exo+2:200&subset=latin,cyrillic);
 
-
-       /* content*/
-.wrap {
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
 	margin-top: -30px;
-	color: #ffffff;
-	text-align: center;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+body{
+	color: #000;
+	text-shadow: #a8a8a8 0 0 1px;
+	font-size: 16px;
+	font-family: 'Exo 2',sans-serif;
+	width: 100% auto;
+	max-width: 1280px;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+	overflow-x: hidden;
+}
+										/* content*/
+.wrap{
+	margin-top: -30px;
+	color: #ffffff;	
 }
 .wrap .panel{
 	height: 210px;
 }
-.pull-left {
-  float: left !important;
-  margin-left: 15%;
- 
+.wrap .h2{
+	margin: 30px;
 }
-.pull-right {
-  float: right !important;
-  margin-right: 18%;
- 
-}
-
 .content{
+	font-family:'Exo 2',sans-serif;
 	text-align: center;
 	color: #000000;
 	text-shadow: #a8a8a8 0 0 1px; 
 	font-size: 16px;
-
 }
 .h2{
-	font-size: 20px;
-}
-
-
-.content h2{
-	text-align: center;
-	font-size: 48px;
+	font-size: 20px;	
 }
 .wrap_2{
 	width:100%;
 	display: -webkit-flex; /* Safari */
-	display:flex;
+	display: flex;
 	-webkit-justify-content: space-around;
 	justify-content: space-around;
     align-items:space-around;
-	flex-wrap:wrap;
-	
+	flex-wrap:wrap;	
 }
 .text_left{
 	float: left;
 	font-size: 16px;
 	line-height: 1.1;
-	margin-left: 0;
-	
+	margin-left: 0;	
 }
 .text_right{
 	float: right;
-	font-size:16px;
-	line-height: 1.1;
-	
+	font-size: 16px;
+	line-height: 1.1;	
 }
 .color{
 	color: #ff0000;
 }
 .wrap_2 .pull-left {
- 
   margin-left: 0;
- 
 }
 .wrap_2 .pull-right {
- 
-  margin-right: 0;
- 
+  margin-right: 0; 
 }
-
-
-.img-thumbnail{
+.wrap_2.img-thumbnail{
 	background: #ffffff;
 	border: 1px solid #b8b8b8;
 	margin-bottom: 0;
-	border-radius: 0;
-	
+	border-radius: 0;	
 }
-.wrap_2 .txt_1, .txt_2, .txt_3, .txt_4{
+.txt_1, .txt_2, .txt_3, .txt_4{
 	display: none;
     font-size: 12px;
     line-height: 1.3;
@@ -96,20 +106,17 @@
 	display: block;
 	border-radius: 0;
 	width: 265px; 
-	height: 290px; 
-	
+	height: 290px;		
 }
-
 .izo_1:hover{
 	background: url(img/pict_1.png) no-repeat 50% 50%;
 	display: block;
 	border-radius: 0;
-	border:1px solid #b8b8b8;
+	border: 1px solid #b8b8b8;
 	box-shadow: 1px 1px 3px #cccccc;
 	width: 340px; 
-	height: 630px; 
+	height: 630px;	
 }
-
 .izo_1:focus{
 	background: url(img/pict_1.png) no-repeat 50% 50%;
 	display: block;
@@ -121,18 +128,17 @@
 }
 .izo_1:hover .txt_1{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;	
     font-size: 12px;
     line-height: 1.3;
     text-align: left;
 	padding-top: 359px;
-	margin-left: 11px;
-    
+	margin-left: 11px;   
 }
 .izo_1:focus .txt_1{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;
 	font-size: 12px;
     line-height: 1.3;
@@ -140,47 +146,43 @@
 	padding-top: 359px;
 	margin-left: 11px;
 }
-
 .izo_2{
 	background: url(img/image_1/image_265x290/ledcross_010.png) no-repeat 50% 50%;
 	display: block;
 	width: 265px; 
-	height: 290px; 
-	
+	height: 290px;	
 }
 .izo_2:hover{
 	background: url(img/pict_2.png) no-repeat 50% 50%;
 	display: block;
 	border-radius: 0;
-	border:1px solid #b8b8b8;
+	border: 1px solid #b8b8b8;
 	box-shadow: 1px 1px 3px #cccccc;
 	width: 340px; 
 	height: 630px; 
 }
-
 .izo_2:focus{
 	background: url(img/pict_2.png) no-repeat 50% 50%;
 	display: block;
 	border-radius: 0;
-	border:1px solid #b8b8b8;
+	border: 1px solid #b8b8b8;
 	box-shadow: 1px 1px 3px #cccccc;
 	width: 340px; 
 	height: 630px; 
 }
 .izo_2:hover .txt_2{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;	
     font-size: 12px;
     line-height: 1.3;
     text-align: left;
 	padding-top: 359px;
-	margin-left: 11px;
-    
+	margin-left: 11px;   
 }
 .izo_2:focus .txt_2{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;
 	font-size: 12px;
     line-height: 1.3;
@@ -192,42 +194,39 @@
 	background: url(img/image_1/image_265x290/pict.png) no-repeat 50% 50%;
 	display: block;
 	width: 265px; 
-	height: 290px; 
-	
+	height: 290px;
 }
 .izo_3:hover{
 	background: url(img/pict_3.png) no-repeat 50% 50%;
 	display: block;
 	border-radius: 0;
-	border:1px solid #b8b8b8;
+	border: 1px solid #b8b8b8;
 	box-shadow: 1px 1px 3px #cccccc;
 	width: 340px; 
 	height: 630px; 
 }
-
 .izo_3:focus{
 	background: url(img/pict_3.png) no-repeat 50% 50%;
 	display: block;
 	border-radius: 0;
-	border:1px solid #b8b8b8;
+	border: 1px solid #b8b8b8;
 	box-shadow: 1px 1px 3px #cccccc;
 	width: 340px; 
 	height: 630px; 
 }
 .izo_3:hover .txt_3{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;	
     font-size: 12px;
     line-height: 1.3;
     text-align: left;
 	padding-top: 359px;
-	margin-left: 11px;
-    
+	margin-left: 11px;   
 }
 .izo_3:focus .txt_3{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;
 	font-size: 12px;
     line-height: 1.3;
@@ -239,14 +238,13 @@
 	background: url(img/image_1/image_265x290/ledcross_020.png) no-repeat 50% 50%;
 	display: block;
 	width: 265px; 
-	height: 290px; 
-	
+	height: 290px;	
 }
 .izo_4:hover{
 	background: url(img/pict_4.png) no-repeat 50% 50%;
 	display: block;
 	border-radius: 0;
-	border:1px solid #b8b8b8;
+	border: 1px solid #b8b8b8;
 	box-shadow: 1px 1px 3px #cccccc;
 	width: 340px; 
 	height: 630px; 
@@ -256,25 +254,24 @@
 	background: url(img/pict_4.png) no-repeat 50% 50%;
 	display: block;
 	border-radius: 0;
-	border:1px solid #b8b8b8;
+	border: 1px solid #b8b8b8;
 	box-shadow: 1px 1px 3px #cccccc;
 	width: 340px; 
 	height: 630px; 
 }
 .izo_4:hover .txt_4{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;	
     font-size: 12px;
     line-height: 1.3;
     text-align: left;
 	padding-top: 359px;
-	margin-left: 11px;
-    
+	margin-left: 11px;    
 }
 .izo_4:focus .txt_4{
 	display: block;
-	color:# 000000;
+	color: #000000;
     cursor: pointer;
 	font-size: 12px;
     line-height: 1.3;
@@ -282,15 +279,36 @@
 	padding-top: 359px;
 	margin-left: 11px;
 }
+											/*form заказа*/
+ .modal-body{
+	padding: 20px;	
+}
+ .modal-header{
+	border-bottom: none;
+}
+ .myform input{
+	margin-bottom: 10px;	
+}
+ .modal-content{
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+}
+										/*form end*/
 .wrap_3{
-	width:100%;
+	width: 100%;
 	display: -webkit-flex; /* Safari */
-	display:flex;
+	display: flex;
 	-webkit-justify-content: center;
 	justify-content: center;
-    align-items:center;
-	flex-wrap:wrap;
-	text-align: center;
+    align-items: center;
+	flex-wrap:wrap;	
+}
+.wrap_3 .pull-left {
+  margin-left: 0; 
+}
+.wrap_3 .pull-right { 
+  margin-right: 0;
 }
  p{
 	text-align: left;
@@ -300,18 +318,164 @@
 .btn-primary{
 	margin-top: 50px;
 }
-
-
 .pict_ruler{
 	margin: 60px 0 40px 0;
 }
 			/*footer*/
 footer{
-	padding: 55px;
+	font-family:'Exo 2',sans-serif;
+	padding: 35px;
 	background-color: #5c5c5c;
 	height: 257px;
 	color: #ffffff;
 	font-size: 26px;
 	line-height: 1.3;
 }
+			/* стили модального окна для таблицы */
+.overlay {
+    background-color: transparent; /* Цвет фона */
+    opacity: 0; /* Изначально непрозрачный */
+    position: fixed; /* Фиксированное позиционирование */
+    right: 0;    /* Справа 0 */
+    top: 0;    /* Сверху 0 */
+    left: 0;    /* Слева 0 */
+    bottom: 0;    /* Снизу 0 */
+    visibility: hidden; /* Изначально невидимый */
+    /* transition старт */
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+}
+.overlay:target {
+    visibility: visible; /* Делает видимым */
+    opacity: 1;    /* Фон становится полностью прозрачным */		
+}
+.popup {   
+    padding: 0; /* Внутренние отступы */
+    position: fixed;    /* Фиксированное расположение */
+    visibility: hidden;    /* Изначально - спрятан */
+    z-index: 10;/* z-index */
+}
+.overlay:target+.popup {
+    top: 10%; /* Расположение */
+    left: 15%; /* Расположение */
+    opacity: 1; /* Убирает прозрачность */
+    visibility: visible; /* Делает видимым */
+}
+/* формируем кнопку закрытия */
+.close{	
+	 color: #ffffff;
+	 opacity: 1;
+	-webkit-transition: all ease .8s;
+    -moz-transition: all ease .8s;
+    -ms-transition: all ease .8s;
+    -o-transition: all ease .8s;
+    transition: all ease .8s;
+}
+.close:hover {
+	opacity: 1;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);    
+}
+/*таблица*/
+.popup .container{
+	 display:block;
+	 color: #ffffff; 
+	background-color: #000000;
+	max-width: 770px;	
+}
+.table{
+	max-width: 740px;
+	font-size: 22px;
+	border: 2px solid #ffffff;	
+}
+           /*end modal*/
+/* элементы м-медиа, фреймы */
+.popup_1  embed, 
+.popup_1 iframe {
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    left: 0; 
+    display: block;
+    margin: auto;
+    min-width: 320px;
+    width: 100%;
+	max-height: 526px;
+}
+/* стили модального окна для видео */
+.popup_1 {   
+    right: 0;
+    left: 50%;
+    font-size: 14px;
+    z-index: 20;
+    width: 100%;
+    min-width: 320px;
+    max-width: 830px;
+/* фиксированное позиционирование, окно стабильно при прокрутке */
+    position: fixed;
+	margin-top: 100px;
+    padding: 0;
+    background: transparent;
+    -webkit-transform: translate(-50%, -500%);
+    -ms-transform: translate(-50%, -500%);
+    -o-transform: translate(-50%, -500%);
+    transform: translate(-50%, -500%);
+    -webkit-transition: -webkit-transform 0.6s ease-out;
+    -moz-transition: -moz-transform 0.6s ease-out;
+    -o-transition: -o-transform 0.6s ease-out;
+    transition: transform 0.6s ease-out;
+}
+/* активируем модальный блок */
+.overlay_1:target+.popup_1 {
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: -5%;
+	height: auto;
+}
+/* изображения внутри окна */
+.popup img {
+    width: 100%;
+    height: auto;
+}
+/* заголовок 2 */
+.popup h2 { 
+    color: #ffffff;
+	text-shadow: #a8a8a8 0 0 1px; 
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+    line-height: 1.3;
+}
+/* параграфы */
+.popup p {margin: 0; padding: 5px 0}
+.popup .txt{
+	font-size: 24px;
+	line-height: 1.2;
+	margin-bottom: 30px;
+	margin-top: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,19 +1,4 @@
 
-body {
-	color: #000000;
-	text-shadow: #a8a8a8 0 0 1px; 
-	font-size: 16px;
-	font-family: 'Exo 2', sans-serif;
-	width: 100% auto;
-	max-width: 1280px;
-	min-width: 320px;
-	position: relative;
-	overflow-x: hidden;
-}
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	
-	
-}
 h1, .h1 {
 	font-size: 22px;
 	color: #ffffff;
@@ -38,12 +23,14 @@ h6, .h6 {
 }
 a,
 a:hover,
-a:focus {
+a:focus,
+a:visited,
+a:active {
 	
 	text-decoration: none; 
 }
-
 .jumbotron{
+	font-family:'Exo 2',sans-serif;
 	background-image: url("img/img_01.jpg");
 	background-color: #cccccc;
 	color: #ffffff;
@@ -54,59 +41,48 @@ a:focus {
 	-o-background-size: cover;  /* Для оперы*/
 	-ms-background-size: cover;  /* Для ИЭ*/
 	background-size: cover;
-	height: 609px;
-	
+	height: 609px;	
 }
-
-
 .btn-danger {
 	border-radius: 0;
 	width: 350px;
 	height: 80px;
+	padding: 10px;
 	font-size: 30px;
 	background-color: transparent;
 	color: #ff0000;
 	border :2px solid #ff0000;
 }
-
- .open .dropdown-toggle.btn-danger {
+.open .dropdown-toggle.btn-danger {
   color: #ff0000;
   background-color: transparent;
   border: 1px #ff0000 solid; 
- 
 }
-
-
 .btn-danger:hover {
- 
  color: #ff0000;
   background-color: transparent;
   border: 1px #ff0000 solid; 
-
 }
 .btn-danger:focus {
- 
  color: #ff0000;
   background-color: transparent;
   border: 1px #ff0000 solid; 
-
 }
-
-.panel{
+.panel{	
 	background-color: #7f7f7f;
 	width: 100%;
 	height: 100px;
 	border: none;
-	border-radius: 0;
-	
+	border-radius: 0;	
 }
+					/* form*/
 .form-control{
+	
 	color: #ffffff;
 	background-color: transparent;
 	border: 3px #ffffff solid;
 	border-radius: 0;
-	height: 60px;
-	padding-right: 240px;
+	height: 60px;	
 }
 .form-control:hover {
 	color: #ffffff;
@@ -123,23 +99,23 @@ a:focus {
 	border-radius: 0;
 }
 .form-control::-moz-placeholder {
-	color: #ffffff;
-	font-size: 27px;
-
+	color: #ffffff;	
 }
+			/*end form*/		
+.wrap .form-control{
+	height: 50px;	
+}		
 .btn-default{
 	color: #ffffff;
 	background-color: transparent;
-	font-size: 28px;
-	width: 240px;
-	height: 65px;
+	font-size: 20px;	
 	border: 3px #ffffff solid;
 	border-radius: 0;
 }
 .btn-default:hover{
 	color: #ffffff;
 	background-color: transparent;
-	font-size: 24px;
+	font-size: 20px;
 	border: 1px #ffffff solid;
 	border-radius: 0;
 	box-shadow: 1px 1px 3px #ffffff;
@@ -147,12 +123,11 @@ a:focus {
 .btn-default:focus{
 	color: #ffffff !important;
 	background-color: transparent !important;
-	font-size: 24px;
+	font-size: 20px;
 	border: 3px #ffffff solid !important;
 	border-radius: 0;
 }
-
-.btn-success{
+		.btn-success{
 	width: 200px;
 	height: 50px;
 	margin-top: 15px;
@@ -163,10 +138,9 @@ a:focus {
 	border: 1px #00ff00 solid;
 	border-radius: 0;
 	box-shadow: 2px 2px 0 #004819;
-	margin-bottom: 15px;
-	
+	margin-bottom: 15px;	
 }
-.btn-success:hover{
+		.btn-success:hover{
 	color: #ffffff;
 	background-color: #00ff00;
 	font-size: 30px;
@@ -174,7 +148,7 @@ a:focus {
 	box-shadow: 2px 2px 0 #004819;
 	border-radius: 0;
 }
-.btn-success:focus{
+		.btn-success:focus{
 	color: #ffffff;
 	background-color: #00ff00;
 	font-size: 30px;
@@ -182,7 +156,6 @@ a:focus {
 	box-shadow: 2px 2px 0 #004819;
 	border-radius: 0;
 }
-
 .btn-primary {
 	border-radius: 0;
 	width: 230px;
@@ -192,24 +165,16 @@ a:focus {
 	color: #ff0000;
 	border :2px solid #ff0000;
 }
-
-
- .btn-primary:hover{
- 
+ .btn-primary:hover{ 
 	color: #ff0000;
 	background-color: transparent;
 	border: 1px #ff0000 solid;
-	box-shadow: 1px 1px 1px #ff0000;
-	
+	box-shadow: 1px 1px 1px #ff0000;	
 }
-
  .btn-primary:focus {
- 
  color: #ff0000 !important;
   background-color: transparent !important;
   border: 1px #ff0000 solid !important; 
-
 }
-
 
 
